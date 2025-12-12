@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "devdoc_contracts"
+version = "0.1.0"
+description = "Holds the shared API type definitions for all DevDoc services."
+authors = ["DevDoc Team <team@devdoc.com>"]
+readme = "README.md"
+packages = [{include = "devdoc_contracts", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

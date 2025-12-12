@@ -1,0 +1,21 @@
+{
+  "name": "devdoc-contracts",
+  "version": "0.1.0",
+  "description": "Holds the shared API type definitions for all DevDoc services.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "devdoc",
+    "contracts",
+    "api",
+    "types"
+  ],
+  "author": "DevDoc Team",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
